@@ -56,3 +56,14 @@ footer {
     margin-bottom: 10px;
     margin-top: 20px;
 }
+
+#article {
+    background: #777;
+    color: #ebebeb;
+    height: 200px;
+    width: 530px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 80px;
+    margin-left: 10px;
+}
