@@ -18,6 +18,7 @@ header {
     width: 1000px; 
     margin-bottom: 10px;
     margin-top: 10px;
+    padding: 40px 20px 20px 475px;
 }
 
 nav {
@@ -26,6 +27,7 @@ nav {
     width: 1000px; 
     margin-bottom: 20px;
     margin-top: 10px;
+    padding: 40px 20px 20px 490px;
 }
 
 section {
@@ -34,6 +36,7 @@ section {
     width: 550px;
     float: left; 
     margin-right: 20px;
+    padding: 35px 20px 60px 250px;
 }
 
 aside {
@@ -41,6 +44,7 @@ aside {
     height: 300px;
     width: 430px;
     float: left;
+    padding: 40px 20px 60px 190px;
 }
 
 .clearfix::after {
@@ -55,6 +59,7 @@ footer {
     width: 1000px; 
     margin-bottom: 10px;
     margin-top: 20px;
+    padding: 40px 20px 20px 475px;
 }
 
 #article {
@@ -66,6 +71,7 @@ footer {
     z-index: 1;
     margin-top: 80px;
     margin-left: 10px;
+    padding: 20px 20px 60px 244px;
 }
 
 #h1h2h3 {
@@ -73,8 +79,9 @@ footer {
     color: #777;
     height: 55px; 
     width: 480px;
-    margin-top: 40px;
-    margin-left: 25px;
+    margin-top: 20px;
+    margin-left: -220px;
+    padding: 20px 30px 20px 200px;
 }
 
 #p {
@@ -83,5 +90,6 @@ footer {
     height: 55px; 
     width: 480px;
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: -220px;
+    padding: 20px 30px 20px 235px;
 }
