@@ -1,7 +1,7 @@
-* {
+*, *::after, *::before {
     box-sizing: border-box;
     margin: 0 auto;
-    width: 960px; 
+    width: 1000px; 
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 header {
     background: #ebebeb;
     height: 100px;
-    width: 960px; 
+    width: 1000px; 
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -23,7 +23,7 @@ header {
 nav {
     background: #ebebeb;
     height: 100px;
-    width: 960px;
+    width: 1000px; 
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -31,28 +31,28 @@ nav {
 section {
     background: #ebebeb;
     height: 300px; 
-    width: 960px;
+    width: 550px;
     float: left; 
     margin-right: 20px;
 }
-    
+
 aside {
     background: #ebebeb;
     height: 300px;
-    width: 960px;
+    width: 430px;
     float: left;
 }
-
-footer {
-    background: #ebebeb;
-    height: 100px;
-    width: 960px; 
-    margin-bottom: 10px;
-    margin-top: 20px;
-}  
 
 .clearfix::after {
     content: " ";
     display: block;
     clear: both;
+}
+
+footer {
+    background: #ebebeb;
+    height: 100px;
+    width: 1000px; 
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
